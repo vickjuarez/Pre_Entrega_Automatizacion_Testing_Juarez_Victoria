@@ -11,12 +11,7 @@ Validar de forma automatizada flujos ESCENCIALES de la plataforma (inicio de ses
 * Selenium WebDriver para automatización
 * Git y GitHub para control de versiones
 * pip install selenium pytest pytest-html
-
-## Cómo instalar las dependencias
-Escribir la siguiente línea en la terminal:
-```bash
-pip install selenium pytest pytest-html
-
+  
 ## Cómo correr las pruebas  
 
 1. Abrir el proyecto en Visual Studio Code.
@@ -34,3 +29,10 @@ pip install selenium pytest pytest-html
 Para ejecutar las pruebas y generar el reporte en la carpeta `Reports/`, utilizá el siguiente comando en la terminal:
 ```bash
 python -m pytest --html=Reports/reporte_HTML.html --self-contained-html
+
+## Cómo instalar las dependencias
+
+Escribir la siguiente línea en la terminal:
+```bash
+pip install selenium pytest pytest-html
+
